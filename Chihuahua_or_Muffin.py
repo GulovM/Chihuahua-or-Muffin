@@ -11,7 +11,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st_image = Image.open("Clastering.png")
+st_image = Image.open("Clastering.jpg")
 st.image(st_image)
 
 # Load kmeans and VGG16 model
