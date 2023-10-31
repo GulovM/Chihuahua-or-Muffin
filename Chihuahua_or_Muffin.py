@@ -32,7 +32,7 @@ def predict_single_image(img_path):
     
     if prediction[0] == 1:
         return "muffin"
-    else:
+    elif prediction[0] == 0:
         return "chihuahua"
 
 def main():
