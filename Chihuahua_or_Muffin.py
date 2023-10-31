@@ -34,6 +34,8 @@ def predict_single_image(img_path):
         return "muffin"
     elif prediction[0] == 0:
         return "chihuahua"
+    else:
+        return "unknown object"
 
 def main():
     uploaded_file = st.file_uploader("Choose a file")
